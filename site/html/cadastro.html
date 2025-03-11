@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadastro.css">
+
+    <script src="../js/index.js"></script>
+    <title>cadastro</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="cadastrar">
+            <form id="form-login" onsubmit="cadastrar(event)">
+                <h3>cadastro</h3>
+                
+                <input type="email" placeholder="email" id="email" required="true "minlength="5" maxlength="15"/>
+
+                <input type="text" placeholder="Usuário:" id="usuario" required="true" minlength="3" maxlength="15"/>
+
+                <input type="password" placeholder="Senha:" id="senha" required="true" minlength="4" maxlength="15"/>
+
+
+                <input type="submit" value="cadastro" onclick="cadastrar();return false"/>
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

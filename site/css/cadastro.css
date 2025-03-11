@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    height: 100%;
+    background-color: brown;
+    justify-content: center;
+}
+
+.cadastrar{
+    background-color:  #636363;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgb(67, 82, 87);
+    width: 300px;
+}
+
+input{
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px;
+}
