@@ -30,10 +30,10 @@ function logar(event){
 function cadastrar(event){
 
     var email = document.getElementById('email').value;
-    var usuario = document.getElementById('usuario-cadastro').value;
-    var senha = document.getElementById('senha-cadastro').value;
+    var usuario = document.getElementById('usuario').value;
+    var senha = document.getElementById('senha').value;
 
-    if(email == 'admin@gmail.com' && usuario == 'admin' && senha == 'admin'){
+    if(email == 'admin@gmial.com' || usuario == 'admin' || senha == 'admin'){
         
         alert("cadastrado");
         location.href="../index.html"
